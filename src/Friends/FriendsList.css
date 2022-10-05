@@ -1,0 +1,144 @@
+.friends__list__page {
+  position: relative;
+  height: 400px;
+  width: 250px;
+  overflow: scroll;
+}
+
+.friends__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50px;
+}
+
+.friends__heading {
+  font-weight: bold;
+  letter-spacing: 1.1px;
+}
+
+.friends__search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 5px;
+  background-color: rgb(235, 232, 232);
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.friends__search > input {
+  outline: none;
+  border: none;
+  font-size: 14px;
+  flex: 1;
+  background-color: rgb(235, 232, 232);
+  font-weight: 600px;
+}
+
+.friends__searchIcon {
+  font-size: 15px !important;
+  padding: 3px;
+}
+
+.my__stories {
+  margin-bottom: 20px;
+}
+
+.stories__title {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+.add__stories {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 12px;
+  background-color: rgb(247, 244, 244);
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.camera__icon {
+  color: rgb(34, 134, 201);
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.add__story__link {
+  text-decoration: none;
+  color: black;
+}
+
+.my__friends__title {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+.add__friends {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 12px;
+  background-color: rgb(247, 244, 244);
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 550;
+  color: black;
+}
+
+.add__friend__link {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.add__friend__icon {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.friends__section {
+  margin-top: 10px;
+}
+
+.letter {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.friends__container {
+  /* box-shadow: 1px -7px 7px -6px rgba(168, 167, 167, 0.44); */
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.friend__row {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+.friend__avatar {
+  height: 25px !important;
+  width: 25px !important;
+  margin-right: 10px;
+}

@@ -21,7 +21,8 @@
     "react-timeago": "^6.2.1",
     "react-uuid": "^1.0.2",
     "react-webcam": "^5.2.4",
-    "timeago-react": "^3.0.4"
+    "timeago-react": "^3.0.4",
+    "uuid": "^9.0.0"
   },
   "scripts": {
     "predeploy": "npm run build",

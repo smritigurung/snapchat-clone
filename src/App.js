@@ -9,6 +9,8 @@ import { selectUser, login, logout } from "./features/appSlice";
 import { useSelector, useDispatch } from "react-redux";
 import Login from "./Login";
 import { auth } from "./firebase";
+import FriendsList from "./Friends/FriendsList";
+import AddFriend from "./Friends/AddFriend.js";
 
 function App() {
   const user = useSelector(selectUser);
@@ -54,6 +56,12 @@ function App() {
                   </Route>
                   <Route path="/preview">
                     <Preview />
+                  </Route>
+                  <Route path="/friends/list">
+                    <FriendsList />
+                  </Route>
+                  <Route path="/friends/add">
+                    <AddFriend />
                   </Route>
                   <Route exact path="/">
                     <WebcamCapture />

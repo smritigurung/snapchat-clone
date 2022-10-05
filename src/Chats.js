@@ -11,6 +11,8 @@ import { selectUser } from "./features/appSlice";
 import RadioButtonUncheckedIcon from "@material-ui/icons/RadioButtonUnchecked";
 import { useHistory } from "react-router-dom";
 import { resetCameraImage } from "./features/cameraSlice";
+import PeopleOutlineRoundedIcon from "@material-ui/icons/PeopleOutlineRounded";
+import { Link } from "react-router-dom";
 
 function Chats() {
   const [posts, setPosts] = useState([]);
@@ -48,6 +50,12 @@ function Chats() {
           <SearchIcon className="chats__searchIcon" />
           <input placeholder="Friends" type="text" />
         </div>
+        <div className="friends__list">
+          <Link to="/friends/list">
+            <PeopleOutlineRoundedIcon className="friends__list" />
+          </Link>
+        </div>
+
         <ChatBubbleIcon className="chats__chatIcon" />
       </div>
       <div className="chats__posts">

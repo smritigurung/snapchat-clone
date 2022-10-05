@@ -85,3 +85,12 @@
   color: white;
   font-size: 18px !important;
 }
+
+.friends__list {
+  color: white;
+  font-size: 22px !important;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-right: 5px;
+}

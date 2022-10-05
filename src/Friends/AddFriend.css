@@ -1,0 +1,55 @@
+.add__friends__page {
+  position: relative;
+  height: 400px;
+  width: 250px;
+}
+
+.add__friends__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50px;
+}
+
+.add__friends__heading {
+  font-weight: bold;
+  letter-spacing: 1.1px;
+}
+
+.add__form__name > input {
+  border: none;
+  padding: 10px;
+  width: 80%;
+  background-color: rgb(245, 244, 244);
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.add__form__username > input {
+  border: none;
+  padding: 10px;
+  width: 80%;
+  background-color: rgb(245, 244, 244);
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.friend__btn {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 12px;
+}
+
+.add__friend__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 35%;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(226, 223, 223);
+  padding: 8px;
+}

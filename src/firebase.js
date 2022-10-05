@@ -1,12 +1,7 @@
 import firebase from 'firebase'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBXnSj8_whRD2LKkI-uXwEZKSRnBYQ66Wk',
-  authDomain: 'snapchat-clone-37497.firebaseapp.com',
-  projectId: 'snapchat-clone-37497',
-  storageBucket: 'snapchat-clone-37497.appspot.com',
-  messagingSenderId: '717367110986',
-  appId: '1:717367110986:web:1ce331f206f610d7a525b3'
+  // some apikey
 }
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
